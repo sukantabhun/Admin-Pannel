@@ -1,0 +1,101 @@
+.create-employee-form-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.create-employee-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    height: fit-content;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 75px;
+}
+.input-field {
+    font-size: 24px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+    margin-left: 15px;
+    width: 100%;
+  }
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 16px;
+    color: #475569;
+    font-size: larger;
+  }
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  
+  .input-label {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .input-field,
+  select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .input-field:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: grey;
+  }
+  .return-button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: red;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .return-button:hover {
+    background-color: grey;
+  }
+  
+  

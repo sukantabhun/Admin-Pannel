@@ -96,5 +96,11 @@ const userSchema = new mongoose.Schema({
 });
 ```
 
+User Credentials: 
+Sukanta Bhunia
+abcdefgh
+
+TestAdmin
+12345678
 - This project is designed to be scalable and easily adaptable for further features.
 

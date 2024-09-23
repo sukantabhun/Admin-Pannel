@@ -39,7 +39,7 @@ class LoginForm extends Component {
 
   submitForm = async (event) => {
     event.preventDefault();
-    const { username, password } = this.state; // Destructure state
+    const { username, password } = this.state;
     const userDetails = { username, password };
     const url = "http://localhost:8000/login";
 

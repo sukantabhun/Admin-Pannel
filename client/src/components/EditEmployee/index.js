@@ -80,7 +80,7 @@ const EditEmployee = () => {
     console.log(formData);
     const formDataToSend = new FormData();
   
-    // Append the form data correctly
+
     for (const key in formData) {
       formDataToSend.append(key, formData[key]);
     }
@@ -88,7 +88,7 @@ const EditEmployee = () => {
     try {
       const response = await fetch(`http://localhost:8000/update-employee/${id}`, {
         method: "PUT",
-        body: formDataToSend, // Use FormData here
+        body: formDataToSend,
       });
   
       const data = await response.json();
@@ -242,10 +242,10 @@ const EditEmployee = () => {
           />
         </label>
 
-        <button type="submit" value="Submit">
+        <button type="submit" value="Submit" className="submit-button">
           Submit
         </button>
-        <button type="button" onClick={onClickReturn}>
+        <button type="button" onClick={onClickReturn} className="return-button">
           Return
         </button>
       </form>

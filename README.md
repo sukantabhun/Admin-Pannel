@@ -98,11 +98,11 @@ const userSchema = new mongoose.Schema({
 
 ###User Credentials: 
 
-Sukanta Bhunia
-abcdefgh
+username: Sukanta Bhunia
+password: abcdefgh
 
-TestAdmin
-12345678
+username: TestAdmin
+password: 12345678
 
 - This project is designed to be scalable and easily adaptable for further features.
 
